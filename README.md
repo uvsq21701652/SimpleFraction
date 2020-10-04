@@ -1,3 +1,1 @@
-SimpleFraction
-# sosooso
 # SimpleFraction
