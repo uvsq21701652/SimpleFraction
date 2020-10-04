@@ -4,13 +4,9 @@ public class Main {
 
 	public static void main(String[] args){
 
-		int n,d;
+		  fraction M = new fraction(3,5);
 
-		n = 4; d = 7;
-			
-		
-
-		System.out.println(" fraction  = " + n + " / " + d + "\n");
+		   System.out.println(" fraction  = " + M.toString() + "\n");
 
 
 	} 
