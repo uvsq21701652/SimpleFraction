@@ -48,7 +48,7 @@ Il pourra être nécessaire de [configurer](http://maven.apache.org/guides/mini/
         Maven Wrapper est un outil qui permet d'encapsuler complètement l'utilisation de Maven. Cet outil permet également de fixer la version de Maven pour un projet et donc de s'assurer que tous les développeurs utilise la même version de Maven.
     1. quelle commande doit-on utiliser dorénavant pour générer un `jar` du projet ?
         ```bash
-        ./mvnw clean install
+        ./mvnw clean install .
         ```
 
 ## Découverte de JUnit 5 (distanciel)
