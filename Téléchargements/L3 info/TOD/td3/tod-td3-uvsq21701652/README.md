@@ -19,7 +19,7 @@ Il pourra être nécessaire de [configurer](http://maven.apache.org/guides/mini/
         > La description du projet se trouve dans le fichier pom.xml
     1. exécuter Maven dans le répertoire créé
         ```bash
-        # RÉPONDRE ICI
+        mvn package
         ```
 1. Corriger la structure pour Maven
     1. déplacer le fichier de description Maven à la racine du projet Java
@@ -45,10 +45,10 @@ Il pourra être nécessaire de [configurer](http://maven.apache.org/guides/mini/
     1. générer une archive du projet contenant ses dépendances (*uber-jar*)
 1. Intégrer [Maven wrapper](https://github.com/takari/maven-wrapper) au projet
     1. quelle est l'utilité de ce plugin ?
-        > RÉPONDRE ICI
+        Maven Wrapper est un outil qui permet d'encapsuler complètement l'utilisation de Maven. Cet outil permet également de fixer la version de Maven pour un projet et donc de s'assurer que tous les développeurs utilise la même version de Maven.
     1. quelle commande doit-on utiliser dorénavant pour générer un `jar` du projet ?
         ```bash
-        # RÉPONDRE ICI
+        ./mvnw clean install
         ```
 
 ## Découverte de JUnit 5 (distanciel)
